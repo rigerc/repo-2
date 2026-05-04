@@ -1,0 +1,24 @@
+# Auto-generated. DO NOT EDIT MANUALLY.
+# Tracks the state of all config files for team conflict resolution.
+
+generated_at: 2026-05-04T17:11:52.056Z
+generated_by: bond
+lib_version: 0.11.0
+checksums:
+  agents/_example.md: sha256:335780c653c0deb6db2971d8a9e2a25beca8ab467442ca7c0be70e48ad6d543c
+  commands/_example.md: sha256:8eb175f909f6acc109f5b4c47286393b945422f0c256bfde8af2d536d600577e
+  hooks.yaml: sha256:e6172228d1a35367871a5be05ada33e5c7e07a9f6ecae4108fedaaec1989be1a
+  ignore: sha256:b71641360cf120445e4b90844b4130053c68d55ead2cf7164f63c7208c1bcc02
+  mcp.json: sha256:6293bc1e0e48112a1dfbf0e17846584ccf04eb40eb305738fe08bc8f2440de4e
+  permissions.yaml: sha256:6560ad4069057d01668dce680c2f0ea5c14bf338be182dcf7a949a7cba1a44cf
+  rules/_example.md: sha256:3aed4a8359f650ceed854ce037489ba60bfaf245f46df11b164e9d6dd5f29b42
+  rules/_root.md: sha256:d20b1f94a0cb5f2ad5a58bc2c06df2740fb35db5cff02f508d61f3991b524f17
+  skills/agentsmesh/SKILL.md: sha256:cf3181726e7bfbf7c579ee2cb1337e7a66a207f79cda7dad98c1c71035026183
+  skills/agentsmesh/references/canonical-features.md: sha256:4600cd904b5a59f4cdc414690016bd7953efc61053cd35b32b7ab9907b873cf3
+  skills/agentsmesh/references/configuration.md: sha256:2686b7497f02406cf19f6fbb4ba57853cce27998d9020e04f9d4b55bc97630f8
+  skills/agentsmesh/references/targets.md: sha256:eaf64330d2f1c4dc0ae96c118f2f859171349baec10b3ca7b512d32c30f205e8
+  skills/td-task-management/SKILL.md: sha256:a6788f4385c3ceb0595bd00cfc6d20c44a29dc1fadb1d5150dc2abee3e646e80
+  skills/td-task-management/references/ai_agent_workflows.md: sha256:bfe8322a60485d56bb11c7db5a4b85d89169f4b6aaf514997b385d2fa64f87bc
+  skills/td-task-management/references/quick_reference.md: sha256:8916442063a800b49a324f591429b99689d31c89a7b2a1e83577153b8a474af1
+extends: {}
+packs: {}

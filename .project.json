@@ -1,0 +1,27 @@
+{
+  "project": {
+    "name": "project-name",
+    "path": "",
+    "url": "",
+    "description": "",
+    "status": "active",
+    "createdAt": "2026-04-30T17:05:40Z",
+    "license": "MIT",
+    "notes": "",
+    "tech": {
+      "languages": [],
+      "frameworks": []
+    },
+    "tags": [],
+    "todos": true,
+    "scaffold": {
+      "exec": [
+        "td init",
+        "npx skills add marcus/td@td-task-management -p -y",
+        "agentsmesh import --from codex-cli",
+        "agentsmesh generate"
+      ],
+      "env": {}
+    }
+  }
+}
