@@ -16,8 +16,7 @@
     "todos": true,
     "scaffold": {
       "exec": [
-        "touch test.md",
-        "td init",
+        "td init | echo N",
         "npx skills add marcus/td@td-task-management -p -y",
         "agentsmesh import --from codex-cli",
         "agentsmesh generate"
