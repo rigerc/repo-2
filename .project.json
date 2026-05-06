@@ -18,7 +18,7 @@
       "exec": [
         "td init | echo N",
         "npx skills@latest add marcus/td@td-task-management -p -y",
-        "npx skills@latest add mattpocock/skills -p -y --skills grill-me grill-with-docs improve-codebase-architecture setup-matt-pocock-skills to-issues to-prd triage write-a-skill zoom-out",
+        "npx skills@latest add mattpocock/skills -p -y --skill grill-me grill-with-docs improve-codebase-architecture setup-matt-pocock-skills to-issues to-prd triage write-a-skill zoom-out",
         "agentsmesh import --from codex-cli",
         "agentsmesh generate"
       ],
