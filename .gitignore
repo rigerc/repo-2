@@ -15,6 +15,7 @@ agentsmesh.local.yaml
 .agentsmesh/packs/
 ./.agents/
 !/.agents/skills/*
+.pi/skills/*
 /skills
 .mux/
 .claude/
