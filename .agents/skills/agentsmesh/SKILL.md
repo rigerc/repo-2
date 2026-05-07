@@ -268,7 +268,7 @@ agentsmesh watch  # regenerates on every .agentsmesh/ save
 
 - Canonical sources: `.agentsmesh/` — **you edit these**
 - Generated artifacts: `.claude/`, `.cursor/`, `../../../AGENTS.md`, etc. — **CLI writes these**
-- Lock file `.agentsmesh/.lock` records checksums; commit it to detect drift
+- Lock file `../../../.agentsmesh/.lock` records checksums; commit it to detect drift
 - `agentsmesh.local.yaml` is gitignored; can narrow but not expand targets/features
 - Extends merge precedence: local `.agentsmesh/` > installed packs > extended sources
 

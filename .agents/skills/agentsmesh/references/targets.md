@@ -232,4 +232,4 @@ Exit codes:
 - `0` — All generated files are in sync
 - `1` — Drift detected (generated files differ from what `generate` would produce)
 
-Commit `.agentsmesh/.lock` to version-control the expected state.
+Commit `../../../../.agentsmesh/.lock` to version-control the expected state.

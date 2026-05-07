@@ -1,3 +1,8 @@
+<!-- agentsmesh:codex-rule-index:start -->
+## Additional Rule Files
+- [Project conventions](.codex/instructions/common.md): General guidance with no file glob restriction.
+<!-- agentsmesh:codex-rule-index:end -->
+
 <!-- agentsmesh:root-generation-contract:start -->
 ## AgentsMesh Generation Contract
 

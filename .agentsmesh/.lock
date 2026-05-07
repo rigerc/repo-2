@@ -1,22 +1,51 @@
 # Auto-generated. DO NOT EDIT MANUALLY.
 # Tracks the state of all config files for team conflict resolution.
 
-generated_at: 2026-05-04T17:11:52.056Z
+generated_at: 2026-05-07T18:53:28.525Z
 generated_by: bond
 lib_version: 0.11.0
 checksums:
   agents/_example.md: sha256:335780c653c0deb6db2971d8a9e2a25beca8ab467442ca7c0be70e48ad6d543c
   commands/_example.md: sha256:8eb175f909f6acc109f5b4c47286393b945422f0c256bfde8af2d536d600577e
+  commands/init-rules.md: sha256:2a27e6c9e542a0b4b970146831821379bf66490a42cdb78c54251f18524b8f20
+  commands/plan-task.md: sha256:7a48145a8bb06d370cc4a5b0956db24b213a3b2c02406de50f260abbf6ac1f7e
   hooks.yaml: sha256:e6172228d1a35367871a5be05ada33e5c7e07a9f6ecae4108fedaaec1989be1a
   ignore: sha256:b71641360cf120445e4b90844b4130053c68d55ead2cf7164f63c7208c1bcc02
   mcp.json: sha256:6293bc1e0e48112a1dfbf0e17846584ccf04eb40eb305738fe08bc8f2440de4e
-  permissions.yaml: sha256:6560ad4069057d01668dce680c2f0ea5c14bf338be182dcf7a949a7cba1a44cf
+  permissions.yaml: sha256:928e45ce5b43ca076ba2ad8d2884a676fa244d47dc85a801f0acb92c2f1fab13
   rules/_example.md: sha256:3aed4a8359f650ceed854ce037489ba60bfaf245f46df11b164e9d6dd5f29b42
   rules/_root.md: sha256:d20b1f94a0cb5f2ad5a58bc2c06df2740fb35db5cff02f508d61f3991b524f17
+  rules/common.md: sha256:c781f3bdbb8a11339a044bf604901a2e6fd55c69f25a6aa0b6b507c219bbd0ac
   skills/agentsmesh/SKILL.md: sha256:cf3181726e7bfbf7c579ee2cb1337e7a66a207f79cda7dad98c1c71035026183
   skills/agentsmesh/references/canonical-features.md: sha256:4600cd904b5a59f4cdc414690016bd7953efc61053cd35b32b7ab9907b873cf3
   skills/agentsmesh/references/configuration.md: sha256:2686b7497f02406cf19f6fbb4ba57853cce27998d9020e04f9d4b55bc97630f8
   skills/agentsmesh/references/targets.md: sha256:eaf64330d2f1c4dc0ae96c118f2f859171349baec10b3ca7b512d32c30f205e8
+  skills/copier/README.md: sha256:33333b97bdc551c09b8493066e2db6a79804373b1f626626ca3605859e117e7e
+  skills/copier/SKILL.md: sha256:3761234dcc5588be78e8dfd33e4fc935cae681b98a806270ae5fe208792c16ad
+  skills/copier/references/advanced-patterns.md: sha256:68f94ccb2f4b12e05a1991576d804376011f41b25aa3284ff327b582c04d5693
+  skills/justfile-expert/REFERENCE.md: sha256:7a9f36afc32ccb768e524e95da3b4d375e953431df4bb28b82f45380b68c0c1d
+  skills/justfile-expert/SKILL.md: sha256:c0f237594b10c64e6defcc3f1a12463422b52663e5f68d5364501f4d47865197
+  skills/repo-copier/.agents/skills/CLAUDE.md: sha256:feb165be13568288ff74616fb05cfab62304d97d54cd2620476db14c8da764d2
+  skills/repo-copier/.vscode/settings.json: sha256:49de07a66e9339bb6bdde43ab607a3270d2267aaa858d5cf23924c777527cc6a
+  skills/repo-copier/CLAUDE.md: sha256:3a93b15701d491563757a1ccd077215a5ceff81a6a0fd644272fc45658d3c104
+  skills/repo-copier/LICENSE: sha256:dad702a20fb01383b7ca8f55c89c454356c9ea1615186e12ec553a2ccf18808b
+  skills/repo-copier/Makefile: sha256:ea7739c420b9d988f80da9ac88fa4408a3345066eb25a698c4b7962dbfa7ad00
+  skills/repo-copier/README.md: sha256:53b9e513cc8c935cbcb5e09b1aca1d565468182715064a50646a7fcad514dd30
+  skills/repo-copier/SKILL.md: sha256:56caf9e5f0b60928f5c9b632e29e660db760f723628ec2ed412ccf12270dd064
+  skills/repo-copier/VERSION: sha256:9fd28642d3aca191e5c7fc2383cfd6fabb2aac8743f029dabb8989ac584e31bc
+  skills/repo-copier/evals/evals.json: sha256:e55928dc8d6520b50e34051212568e5f36348b6602f0ed9f2218b0c6fce924d1
+  skills/repo-copier/reference/configuring.md: sha256:2ebe76b226ac309f40b9006f4f9ee09ba6d1b60ac546eec994bbe91595184038
+  skills/repo-copier/reference/creating.md: sha256:566e9c4e6dc0708a941f4c47fe0c9bc75e9b55956c61019541dd63deed7dc29e
+  skills/repo-copier/reference/faq.md: sha256:d406f2b4ac498613ede9c03cddd813c243138eaad59927d0eb46d440497d1dd0
+  skills/repo-copier/reference/generating.md: sha256:48f5a24d11041f4684cec713f8bf177dc668c3095cacd4cdd0116b5a70a84573
+  skills/repo-copier/reference/settings-reference.md: sha256:3205b25d9989002aeb9ce1211a0d1ce9eb698bfe50bcb6d9cbf4df82a81d40df
+  skills/repo-copier/reference/updating.md: sha256:7d5b6432c7ddd9fa2e0a23ac4a0fc80064f607097cad3accfe5cf0aa7fe75e72
+  skills/repo-copier/reference/user-settings.md: sha256:34ca05b7c3d05e983683f310e338cbb1381965e451bb579c98695ef6c45d83c0
+  skills/repo-copier/skills-lock.json: sha256:bccb48090d333556c3ba833f3dac6c02c60ed5df8d760545920c1b5e5d0899fa
+  skills/repo-copier/vendor/CLAUDE.md: sha256:97fdef812b1a062a550d6071fc034a0e29d9b1d185a014036e8cfe9a277b5dc8
+  skills/repo-copier/vendor/inline: sha256:18603bc023185f08e4b048e90f8ac96ddbe326086dedb8e68f077cc644e4ade2
+  skills/repo-copier/vendor/semver: sha256:852e330222b30ce24fafba2e6d5a346d77ad0018f5e95e80db371e0237bb4711
+  skills/repo-copier/vendor/set-skill-version: sha256:c18c0d96b10cab92875572c7219166872693dd8788bd644a9846452f7105ddc0
   skills/td-task-management/SKILL.md: sha256:a6788f4385c3ceb0595bd00cfc6d20c44a29dc1fadb1d5150dc2abee3e646e80
   skills/td-task-management/references/ai_agent_workflows.md: sha256:bfe8322a60485d56bb11c7db5a4b85d89169f4b6aaf514997b385d2fa64f87bc
   skills/td-task-management/references/quick_reference.md: sha256:8916442063a800b49a324f591429b99689d31c89a7b2a1e83577153b8a474af1

@@ -234,7 +234,7 @@ Use `pathjoin()` for cross-platform paths in import/include statements:
 ## Most-Used Settings
 
 Settings go in `copier.yml` prefixed with `_`. Full reference:
-[./settings-reference.md](./settings-reference.md).
+[.agentsmesh/skills/repo-copier/reference/settings-reference.md](./settings-reference.md).
 
 ### `_tasks`
 
@@ -348,7 +348,7 @@ The resulting file in the project records which template version was used and al
 answers.
 
 > **Never edit `.copier-answers.yml` manually.** See
-> [./updating.md](./updating.md#never-edit-the-answers-file-manually).
+> [.agentsmesh/skills/repo-copier/reference/updating.md](./updating.md#never-edit-the-answers-file-manually).
 
 ## Applying Multiple Templates to the Same Project
 

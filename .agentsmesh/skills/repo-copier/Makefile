@@ -13,7 +13,7 @@ bump-major bump-minor bump-patch: check-deps
 	@if [ -n "$$(git status --porcelain)" ]; then echo "Error: uncommitted changes in repo" >&2; exit 1; fi
 	@PART=$$(echo $@ | sed 's/bump-//'); \
 	OLD=$$(cat VERSION); \
-	NEW=$$(sh ./vendor/semver bump $$PART "$$OLD") || { echo "Error: semver bump failed" >&2; exit 1; }; \
+	NEW=$$(sh .agentsmesh/skills/repo-copier/vendor/semver bump $$PART "$$OLD") || { echo "Error: semver bump failed" >&2; exit 1; }; \
 	if [ -z "$$NEW" ]; then echo "Error: semver returned empty version" >&2; exit 1; fi; \
 	echo "--- $@: $$PART $$OLD -> $$NEW ---"; \
 	printf '%s\n' "$$NEW" > VERSION
@@ -27,7 +27,7 @@ bump-major bump-minor bump-patch: check-deps
 	echo "--- $@: done ---"
 
 set-skill-version:
-	@./vendor/set-skill-version SKILL.md "$$(cat VERSION)"
+	@.agentsmesh/skills/repo-copier/vendor/set-skill-version SKILL.md "$$(cat VERSION)"
 
 update-skills: check-deps
 	@echo "--- update-skills ---"
@@ -48,7 +48,7 @@ tag:
 	echo "--- tag: done ---"
 
 tokens:
-	@FILES="SKILL.md $$(sed -n 's|.*](\.claude/skills/repo-copier([^)]*\.md\)).*|\1|p' SKILL.md)"; \
+	@FILES="SKILL.md $$(sed -n 's|.*](\.agentsmesh/skills/repo-copier([^)]*\.md\)).*|\1|p' SKILL.md)"; \
 	TOTAL=0; \
 	for f in $$FILES; do \
 		if [ -f "$$f" ]; then \

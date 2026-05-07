@@ -4,7 +4,7 @@ All settings go in `copier.yml` prefixed with `_` (e.g. `_tasks`). Some are CLI-
 noted.
 
 For commonly used settings with examples, see
-[./configuring.md](./configuring.md#most-used-settings).
+[.agentsmesh/skills/repo-copier/reference/configuring.md](./configuring.md#most-used-settings).
 
 ---
 

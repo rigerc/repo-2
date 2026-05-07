@@ -3,8 +3,6 @@ name: repo-copier
 description: Use this skill when the user is working with the `copier` CLI tool specifically — generating a project from a copier template (`copier copy`), updating a copier-managed project (`copier update`), authoring a copier template (i.e. a Git repo with `copier.yml`), or configuring `copier.yml`. Also trigger for questions about `.copier-answers.yml`, `_tasks`, `_exclude`, or other copier-specific settings. Do NOT trigger for general Jinja2 templating, Flask/Django/Ansible templates, or other tools that happen to use Jinja.
 ---
 
-## Purpose
-
 Copier is a CLI tool for rendering project templates and keeping generated projects in sync with
 those templates over time. Templates are Git repos; generated projects record their answers in
 `.copier-answers.yml` to enable future updates.
@@ -15,13 +13,13 @@ Read these on demand — don't load all of them upfront:
 
 | File                                                                 | When to read                                                   |
 | -------------------------------------------------------------------- | -------------------------------------------------------------- |
-| [./reference/creating.md](./reference/creating.md)                     | Authoring templates: file handling, variables, yield loops     |
-| [./reference/configuring.md](./reference/configuring.md)               | `copier.yml` questions, conditional files, tasks, answers file |
-| [./reference/settings-reference.md](./reference/settings-reference.md) | Full list of all `_` settings with CLI flags and defaults      |
-| [./reference/generating.md](./reference/generating.md)                 | `copier copy` options, version selection, flags                |
-| [./reference/updating.md](./reference/updating.md)                     | `copier update`, conflict handling, check-update               |
-| [./reference/user-settings.md](./reference/user-settings.md)           | Global user defaults, trusted repos                            |
-| [./reference/faq.md](./reference/faq.md)                               | Computed values, context hooks, credentials, dirty changes     |
+| [.agentsmesh/skills/repo-copier/reference/creating.md](./reference/creating.md)                     | Authoring templates: file handling, variables, yield loops     |
+| [.agentsmesh/skills/repo-copier/reference/configuring.md](./reference/configuring.md)               | `copier.yml` questions, conditional files, tasks, answers file |
+| [.agentsmesh/skills/repo-copier/reference/settings-reference.md](./reference/settings-reference.md) | Full list of all `_` settings with CLI flags and defaults      |
+| [.agentsmesh/skills/repo-copier/reference/generating.md](./reference/generating.md)                 | `copier copy` options, version selection, flags                |
+| [.agentsmesh/skills/repo-copier/reference/updating.md](./reference/updating.md)                     | `copier update`, conflict handling, check-update               |
+| [.agentsmesh/skills/repo-copier/reference/user-settings.md](./reference/user-settings.md)           | Global user defaults, trusted repos                            |
+| [.agentsmesh/skills/repo-copier/reference/faq.md](./reference/faq.md)                               | Computed values, context hooks, credentials, dirty changes     |
 
 ---
 
@@ -130,7 +128,7 @@ files.
 - All other files → copied as-is
 - File and directory names can contain `{{ jinja_expressions }}` — they're evaluated to produce the
   actual name
-- If both `./README.md` and `README.md.jinja` exist, the `.jinja` version wins
+- If both `.agentsmesh/skills/repo-copier/README.md` and `README.md.jinja` exist, the `.jinja` version wins
 
 ### `copier.yml` quick reference
 
