@@ -12,7 +12,3 @@ features:
   - hooks
   - ignore
   - permissions
-  - skills
-overrides:
-  codex-cli:
-    features: [rules, commands, agents, mcp, hooks, ignore, permissions]

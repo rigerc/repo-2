@@ -17,10 +17,10 @@
     "scaffold": {
       "exec": [
         "td init | echo N",
-        "npx -y skills@latest add marcus/td@td-task-management -p -y",
-        "npx -y skills@latest add mattpocock/skills -p -y --skill grill-me grill-with-docs improve-codebase-architecture setup-matt-pocock-skills to-issues to-prd triage write-a-skill zoom-out",
-        "agentsmesh import --from codex-cli",
-        "agentsmesh generate"
+        "skillshare init -p -m copy --targets universal,claude,opencode,pi --no-copy --no-git --no-skill",
+        "skillshare install -p -y marcus/td/td-task-management",
+        "skillshare install -p mattpocock/skills -p -y --skill grill-me,grill-with-docs,improve-codebase-architecture,setup-matt-pocock-skills,to-issues,to-prd,triage,write-a-skill,zoom-out",
+        "skillshare sync -p"
       ],
       "env": {}
     }
