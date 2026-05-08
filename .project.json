@@ -17,7 +17,6 @@
     "scaffold": {
       "exec": [
         "td init | echo N",
-        "skillshare init -p -m copy --targets universal,claude,opencode,pi",
         "skillshare install -p -y marcus/td/td-task-management",
         "skillshare install -p mattpocock/skills --skill grill-me,grill-with-docs,improve-codebase-architecture,setup-matt-pocock-skills,to-issues,to-prd,triage,write-a-skill,zoom-out",
         "skillshare sync -p"
